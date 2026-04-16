@@ -2,7 +2,7 @@
 
 ## Task List
 
-- [x] T1: 项目脚手架 — 数据模型 + 配置加载 + 去重模块 (`1b8cba6`)
+- [ ] T1: 项目脚手架 — 数据模型 + 配置加载 + 去重模块 (代码已完成 `1b8cba6`，待安装 Python 后运行测试验证)
   - spec: `docs/specs/utils-config/spec.md`, `docs/specs/utils-dedup/spec.md`
   - 创建 `src/models.py`（Article, AnalyzedArticle, ClassificationResult 数据类）
   - 创建 `src/utils/config.py`（Config 类）
