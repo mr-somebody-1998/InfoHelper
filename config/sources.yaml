@@ -1,0 +1,100 @@
+# --- AI 领域 ---
+rss:
+  # Karpathy
+  - name: Karpathy Blog (GitHub)
+    url: https://karpathy.github.io/feed.xml
+    category: ai
+    priority: high
+  - name: Karpathy Blog (Bear)
+    url: https://karpathy.bearblog.dev/feed/
+    category: ai
+    priority: high
+  # 综合
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: ai
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    category: ai
+  - name: Hacker News AI
+    url: https://hnrss.org/newest?q=AI+LLM
+    category: ai
+  - name: Foreign Policy
+    url: https://foreignpolicy.com/feed
+    category: economics
+  - name: Cognizant Insights
+    url: https://news.cognizant.com/rss
+    category: economics
+  - name: 36氪
+    url: https://36kr.com/feed
+    category: economics
+
+apis:
+  - name: arXiv AI
+    type: arxiv
+    query: "cat:cs.AI"
+    category: ai
+  - name: Karpathy YouTube
+    type: youtube
+    channel_id: UCNJB0_oMTVAyPtmMMAQpidg
+    category: ai
+    priority: high
+
+twitter:
+  - name: Karpathy
+    handle: karpathy
+    category: ai
+    priority: high
+    method: rss_bridge
+
+crawlers:
+  - name: Morgan Stanley Ideas
+    url: https://www.morganstanley.com/ideas
+    parser: morgan_stanley
+    category: economics
+    access: public
+  - name: Goldman Sachs Insights
+    url: https://www.goldmansachs.com/insights
+    parser: goldman_sachs
+    category: economics
+    access: public
+  - name: Nomura Research
+    url: https://www.nicmr.com/en/report.html
+    parser: nomura
+    category: economics
+    access: public
+  - name: Citi Institute
+    url: https://www.citigroup.com/global/insights/citi-institute
+    parser: citi
+    category: economics
+    access: public
+  - name: UBS Insights
+    url: https://www.ubs.com/global/en/investment-bank/insights-and-data.html
+    parser: ubs
+    category: economics
+    access: public
+  - name: Barclays Research
+    url: https://www.ib.barclays/research.html
+    parser: barclays
+    category: economics
+    access: auth_required
+  - name: CF40
+    url: https://www.cf40.org.cn/
+    parser: cf40
+    category: economics
+    access: public
+  - name: Rhodium Group
+    url: https://rhg.com/research/
+    parser: rhodium
+    category: economics
+    access: public
+  - name: 华尔街见闻
+    url: https://wallstreetcn.com
+    parser: wallstreetcn
+    category: economics
+    access: public
+  - name: 财新
+    url: https://www.caixin.com
+    parser: caixin
+    category: economics
+    access: partial

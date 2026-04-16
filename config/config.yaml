@@ -1,0 +1,8 @@
+claude:
+  api_key: ${CLAUDE_API_KEY}
+  model: claude-sonnet-4-20250514
+  max_tokens: 2048
+
+storage:
+  knowledge_dir: ./knowledge
+  db_path: ./data/infohelper.db
